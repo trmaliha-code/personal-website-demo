@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Personal Website</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Source+Sans+Pro:wght@600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section class="intro">
-      <div class="half-width">
+      <div class="half-width middle">
         <h2>Hello I'm</h2>
         <h1>Jack Smith</h1>
         <p>
-          You might saw me jumping, climbing buildings, and stopping trains.But
+          You might saw me jumping, climbing buildings, and stopping trains.<br />But
           nobody pays me a dime for that work.
         </p>
         <a
+          class="link-button"
           target="_blank"
           href="https://www.linkedin.com/in/tasmia-rahman-maliha-88034a163/"
           >HIRE ME</a
@@ -34,15 +35,16 @@
       <div class="half-width">
         <img src="images/peter_dream.png" alt="Peter_dream" />
       </div>
-      <div class="half-width">
+      <div class="half-width middle">
         <h3>Biography</h3>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
+          Lorem Ipsum is simply dummy text of the printing and typesetting<br />
+          industry. Lorem Ipsum has been the industry's standard dummy text<br />ever
+          since the 1500s, when an unknown printer took a galley of type<br />and
           scrambled it to make a type
         </p>
         <a
+          class="link-button"
           target="_blank"
           href="https://www.linkedin.com/in/tasmia-rahman-maliha-88034a163/"
           >DOWNLOAD CV</a
@@ -52,13 +54,13 @@
 
     <section class="work">
       <h2 class="center">My Latest Work</h2>
-      <div class="one-third-width">
+      <div class="one-third-width-1">
         <img src="images/latest-work/work-1.png" alt="work-1" />
       </div>
-      <div class="one-third-width">
+      <div class="one-third-width-1">
         <img src="images/latest-work/work-2.jpg" alt="work-2" />
       </div>
-      <div class="one-third-width">
+      <div class="one-third-width-1">
         <img src="images/latest-work/work-3.jpg" alt="work-3" />
       </div>
     </section>
@@ -67,16 +69,53 @@
       <div class="center">
         <h2>What Client Are Saying</h2>
         <h5>Bruce Moccy</h5>
-        <h6>Founder & CEO Alies</h6>
-        <p>
-          "Lorem Ipsum is simply dummy text of the printing and typesetting
+        <p class="alies">Founder & CEO Alies</p>
+        <p class="quote">
+          "Lorem Ipsum is simply dummy text of the<br />printing and typesetting
           industry. Lorem Ipsum"
         </p>
       </div>
-      <div class="center">
+      <div class="center message">
         <p>Leave me a message in the</p>
         <h3>programming.hero1@gmail.com</h3>
       </div>
     </section>
+
+    <section class="article">
+      <h2 class="center">My Articles</h2>
+      <div class="one-third-width-2 bg">
+        <h4 class="colored-title">HTML</h4>
+        <p class="justify">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is...
+        </p>
+        <a class="more-button" target="_blank" href="#">More</a>
+      </div>
+      <div class="one-third-width-2 bg">
+        <h4 class="colored-title">CSS</h4>
+        <p class="justify">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old...
+        </p>
+        <a class="more-button" target="_blank" href="#">More</a>
+      </div>
+      <div class="one-third-width-2 bg">
+        <h4 class="colored-title">JavaScript</h4>
+        <p class="justify">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised...
+        </p>
+        <a class="more-button" target="_blank" href="#">More</a>
+      </div>
+    </section>
+
+    <footer>
+      <p class="center">
+        Programming Hero initiative. &copy 2020 All rights Reserved.
+      </p>
+    </footer>
   </body>
 </html>
