@@ -5,8 +5,22 @@ body {
 .half-width {
   width: 40%;
   float: left;
-  margin: 5%;
+  margin: 3%;
+  padding: 2%;
 }
 .half-width img {
   width: 100%;
+}
+
+.intro {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+}
+section {
+  height: 500px;
+}
+
+.bio {
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
 }
